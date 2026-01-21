@@ -2,7 +2,7 @@ const http = require("http");
 
 const server = http.createServer((req, res) => {
   res.writeHead(200);
-  res.end("DevOps Pipeline Working after webhook configuration\n");
+  res.end("DevOps Pipeline Working after webhook configuration and auto rollout\n");
 });
 
 server.listen(3000, () => {
